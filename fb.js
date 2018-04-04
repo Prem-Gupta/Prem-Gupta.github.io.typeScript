@@ -26,7 +26,7 @@ var FbAbout = /** @class */ (function () {
     }
     return FbAbout;
 }());
-var onFb = new FbAbout(7011854346, 16 / 2 / 1993, "NITK", "Karhal", "Single", "Gurgaon", "priyamgpt444@gmail.com");
+var onFb = new FbAbout(7011854346, "16 / 2 / 1993", "NITK", "Karhal", "Single", "Gurgaon", "priyamgpt444@gmail.com");
 var Mobile = onFb.getMobile();
 var Birthday = onFb.getBirthday();
 var Education = onFb.getEducation();
