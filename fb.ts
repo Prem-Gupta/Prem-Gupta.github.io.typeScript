@@ -2,14 +2,14 @@
 class FbAbout {
 
     mobileNo: number;
-    birthday: any;
+    birthday: string;
     Education: string;
     Hometown: string;
     Relationship: string;
     WorkPlace : string;
     EmailId : string;
 
-    constructor(_mobileNo: number, _birthday: any,_Education : string,
+    constructor(_mobileNo: number, _birthday: string,_Education : string,
          _Hometown: string, _Relationship: string,_WorkPlace:string,_EmailId:string) {
         this.mobileNo = _mobileNo;
         this.birthday = _birthday;
@@ -40,7 +40,7 @@ class FbAbout {
 }
 
 
-let onFb = new FbAbout(7011854346,16/2/1993,"NITK","Karhal","Single","Gurgaon","priyamgpt444@gmail.com")
+let onFb = new FbAbout(7011854346,"16/2/1993","NITK","Karhal","Single","Gurgaon","priyamgpt444@gmail.com")
 
 let Mobile = onFb.getMobile();
 let Birthday = onFb.getBirthday();
